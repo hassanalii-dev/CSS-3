@@ -1,0 +1,28 @@
+.btn{
+    background-color: red;
+}
+
+.btn:hover{
+    background-color: white;
+    transform: scale(1.1);
+}
+
+.username:focus{
+    background-color: orange;
+}
+
+.child:nth-child(3){
+    background-color: yellow;
+}
+
+.title::before{
+    content:"Mr.";
+    color: blue;
+    font-weight: bold;
+}
+
+.title::after{
+    content: "TPM";
+    color: green;
+    font-weight: bold;
+}
