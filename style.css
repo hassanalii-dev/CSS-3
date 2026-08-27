@@ -1,28 +1,52 @@
-.btn{
-    background-color: red;
+.button{
+    background-color: yellow;
 }
 
-.btn:hover{
+.button:hover{
     background-color: white;
     transform: scale(1.1);
+}
+
+.dlms:visited{
+    color: green;
 }
 
 .username:focus{
     background-color: orange;
 }
 
-.child:nth-child(3){
+.child:last-child{
     background-color: yellow;
 }
 
+.child:first-child{
+    background-color: pink;
+}
+
+.child:nth-child(2){
+    background-color:blueviolet
+}
+
+.child:nth-child(3){
+    background-color:aqua
+}
+
+.child:nth-child(4){
+    background-color:chartreuse
+}
+
+.password:focus{
+    background-color: pink;
+}
+
 .title::before{
-    content:"Mr.";
+    content: "Mr. ";
     color: blue;
     font-weight: bold;
 }
 
 .title::after{
-    content: "TPM";
-    color: green;
+    content: " Ali" ;
+    color: blue;
     font-weight: bold;
 }
